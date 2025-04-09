@@ -1,0 +1,16 @@
+import random
+
+print("1 dan 1000 oralig'idagi istalgan sonni toping")
+
+x = random.randint(1, 1000)
+
+while True:
+    y = int(input("Son kiriting: "))
+    if y > x:
+        print("Siz katta son kiritdingiz")
+    elif y < x:
+        print("Siz kichik son kiritdingiz")
+    else:
+        print("Siz sonni topdingiz!")
+        break
+
