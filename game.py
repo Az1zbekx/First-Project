@@ -8,13 +8,10 @@ while True:
 
     y = int(input())
 
-    if y > x :
+    if y > x:
         print("Siz katta son kiritdingiz")
-    elif y < x :
+    elif y < x:
         print("Siz kichik son kiritdingiz")
     else:
         print("Siz sonni topdingiz")
         break
-
-
-
